@@ -1,0 +1,305 @@
+{
+      "@class": "consulting.optimus.oc.model.Element",
+      "id": "11a6df13-2b0c-4091-9c29-ff9b0a4aec07",
+      "name": "Gas riser 1",
+      "properties": [
+        {
+          "id": "4ebb00ce-6455-4307-aa8a-143101a41af4",
+          "name": "nomOd",
+          "label": "2 Nom OD (in)",
+          "value": 10.0,
+          "valueType": "number",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "d167a151-1f79-4300-95a4-96d49349dfd4",
+          "name": "packOn",
+          "label": "Pack on",
+          "value": "carousel",
+          "valueType": "string",
+          "formula": null,
+          "type": "Installation"
+        },
+        {
+          "id": "4d5eec04-9817-4f9a-b71d-d985f6d76918",
+          "name": "od",
+          "label": "2 OD",
+          "value": {
+            "value": 0.2731,
+            "unit": "m"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "4e6b0b1d-f69c-460c-87f9-8bebdb288c3d",
+          "name": "color",
+          "label": "Color",
+          "value": 16711680,
+          "valueType": "number",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "31045cb3-fc07-4910-8f05-c745a5f96787",
+          "name": "material",
+          "label": "3 Material",
+          "value": "",
+          "valueType": "string",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "f5853ab6-05dd-4da9-a567-877427a2e75d",
+          "name": "weight",
+          "label": "3 Weight",
+          "value": {
+            "value": 79.99913639281971,
+            "unit": "kg/m"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "cd7308b9-a588-4591-8f0d-5b8b4df1c8a5",
+          "name": "id",
+          "label": "2 ID",
+          "value": {
+            "value": 0.2477,
+            "unit": "m"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "11da94ab-302b-44c5-8f8e-16f299f53b24",
+          "name": "wallThickness",
+          "label": "2 Wall Thickness",
+          "value": {
+            "value": 12.7,
+            "unit": "mm"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "446a97e8-f3ea-4929-8f46-2ea9a961b22b",
+          "name": "density",
+          "label": "4 Density",
+          "value": {
+            "value": 7700,
+            "unit": "kg/m^3"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "fc8dd0cd-1fdd-44f8-b5ad-8f9013de9351",
+          "name": "description",
+          "label": "1 Description",
+          "value": "6in Nom OD, 12.7mm WT",
+          "valueType": "string",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "dc23bbc9-ca1c-445d-aa7f-c750413fd635",
+          "name": "points",
+          "label": "Points (x,y,z) (m)",
+          "value": [
+            {
+              "x": 200286.88,
+              "y": 650287.8,
+              "z": 4.0
+            },
+            {
+              "x": 200328.53,
+              "y": 650206.75,
+              "z": -1303.0522
+            },
+            {
+              "x": 200419.72,
+              "y": 650029.3,
+              "z": -1489.101
+            },
+            {
+              "x": 200458.33,
+              "y": 649954.2,
+              "z": -1489.101
+            },
+            {
+              "x": 200460.9,
+              "y": 649949.2,
+              "z": -1486.7578
+            },
+            {
+              "x": 200463.08,
+              "y": 649944.94,
+              "z": -1481.9911
+            },
+            {
+              "x": 200464.02,
+              "y": 649943.1,
+              "z": -1480.4231
+            },
+            {
+              "x": 200465.14,
+              "y": 649940.94,
+              "z": -1479.5883
+            },
+            {
+              "x": 200466.31,
+              "y": 649938.7,
+              "z": -1479.5735
+            },
+            {
+              "x": 200467.44,
+              "y": 649936.5,
+              "z": -1480.3801
+            },
+            {
+              "x": 200468.38,
+              "y": 649934.6,
+              "z": -1481.9244
+            },
+            {
+              "x": 200469.05,
+              "y": 649933.3,
+              "z": -1484.0459
+            },
+            {
+              "x": 200469.38,
+              "y": 649932.7,
+              "z": -1486.5239
+            },
+            {
+              "x": 200469.36,
+              "y": 649932.8,
+              "z": -1487.648
+            }
+          ],
+          "valueType": "vectorArray",
+          "formula": null,
+          "type": "Engineering"
+        }
+      ],
+      "type": {
+        "id": "39586346-7365-4103-8133-3303b87c4bdb",
+        "name": "Line"
+      },
+      "children": [],
+      "template": {
+        "@class": "consulting.optimus.oc.model.Element",
+        "id": "969ffc83-b46f-488b-895d-1ff1f1f7e741",
+        "name": "flexible riser",
+        "properties": [],
+        "type": null,
+        "children": [],
+        "template": null,
+        "path": "/OSC-P007/OC lines/flexible riser",
+        "asset": null,
+        "connections": [],
+        "connectionPoints": [],
+        "adjustable": true,
+        "status": null,
+        "creationInfo": null,
+        "scopeOfWorkRelationships": []
+      },
+      "path": "/OSC-P007-C002/Gas riser 1",
+      "asset": {
+        "id": "631e08e9-c320-4cb9-b8d1-6dc37a4f70e3",
+        "name": "spline",
+        "contentId": null,
+        "path": "/OSC/spline"
+      },
+      "connections": [
+        {
+          "id": "c44fbb8a-bd83-4e6f-8fa5-d61e66ec4491",
+          "connectionPoint": {
+            "id": "85219c13-ff2b-423e-80fb-93a8c6e70507",
+            "type": "Connector",
+            "position": {
+              "x": 0.4932,
+              "y": 0.1517,
+              "z": 1.4151
+            },
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "systems": [
+              "Gas"
+            ],
+            "endpoint": false,
+            "source": false,
+            "purposes": [
+              "Production"
+            ],
+            "metaData": {}
+          },
+          "elementId": "3e3f5c53-f839-4e5e-8125-150369172777",
+          "data": {
+            "pointIndex": 13
+          }
+        },
+        {
+          "id": "40a50645-e0f3-4559-96c7-7cc17217003c",
+          "connectionPoint": {
+            "id": "6ce0be55-1592-48c0-bebc-01a0ccc7349f",
+            "type": "Connector",
+            "position": {
+              "x": -7.5,
+              "y": 12.990381,
+              "z": 4.0
+            },
+            "direction": {
+              "x": 0.0,
+              "y": 86.0,
+              "z": 120.0
+            },
+            "systems": [
+              "Gas"
+            ],
+            "endpoint": true,
+            "source": null,
+            "purposes": [
+              "Production"
+            ],
+            "metaData": {
+              "pipesim": {
+                "source": false,
+                "fluid": {
+                  "pressure": 214.7
+                }
+              }
+            }
+          },
+          "elementId": "ac394a00-5626-4f2e-af40-6a1f9af2cece",
+          "data": {
+            "pointIndex": 0
+          }
+        }
+      ],
+      "connectionPoints": [],
+      "adjustable": true,
+      "status": "Planned",
+      "creationInfo": {
+        "id": "b871e74b-1ea5-4205-ada1-b26d4bd79cbb",
+        "rule": "flexible-catenary-riser-rule",
+        "parameters": {
+          "mbr": 200,
+          "distance": 400.0,
+          "departure-angle": 4,
+          "br-mbr": 8
+        },
+        "metaData": {}
+      },
+      "scopeOfWorkRelationships": []
+    }

@@ -1,0 +1,1049 @@
+{
+      "@class": "consulting.optimus.oc.model.Element",
+      "id": "4ca88eb8-8cd2-4bd0-8322-a6afc21126af",
+      "name": "Base Line",
+      "properties": [
+        {
+          "id": "7e7cb97f-6521-468e-ad09-2ada157a4b60",
+          "name": "packingOnReelOrCarousel",
+          "label": "Packing on (reel or carousel)",
+          "value": "",
+          "valueType": "string",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "21dfc730-e75e-4065-a0b6-fd1651f5d8c9",
+          "name": "od",
+          "label": "OD",
+          "value": {
+            "value": 0.273,
+            "unit": "m"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "feb8bd46-f758-46a8-a925-c607f32d59fd",
+          "name": "color",
+          "label": "Color",
+          "value": 16711680,
+          "valueType": "number",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "6b03e8dc-03bc-4cab-a07c-d6f2077803c2",
+          "name": "material",
+          "label": "Material",
+          "value": "Carbon Steel",
+          "valueType": "string",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "e36f0f5a-452a-43e4-8d00-e6da07f6afea",
+          "name": "smys",
+          "label": "SMYS",
+          "value": 4.48E+8,
+          "valueType": "number",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "4a3611e5-3da1-44f1-b7c2-1a315fd530cb",
+          "name": "weight",
+          "label": "Weight (kg/m)",
+          "value": {
+            "value": 100.714,
+            "unit": "kg/m"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "febe6d88-9a61-43bd-a668-e383486f6a4f",
+          "name": "id",
+          "label": "ID",
+          "value": {
+            "value": 0.241,
+            "unit": "m"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "117399f0-e993-47c8-bf88-4eb48b644269",
+          "name": "density",
+          "label": "Density",
+          "value": {
+            "value": 7850,
+            "unit": "kg/m^3"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "230abccb-714c-45d5-bbbf-028cbc6aaea7",
+          "name": "wallThickness",
+          "label": "Wall Thickness",
+          "value": {
+            "value": 15.88,
+            "unit": "mm"
+          },
+          "valueType": "measurement",
+          "formula": null,
+          "type": "Engineering"
+        },
+        {
+          "id": "3bc448e1-a472-461b-b54d-99137360198e",
+          "name": "points",
+          "label": "Points (x,y,z) (m)",
+          "value": [
+            {
+              "x": 0.0,
+              "y": 0.12,
+              "z": 54.0546
+            },
+            {
+              "x": 927.7,
+              "y": 32758.0,
+              "z": -99.0
+            },
+            {
+              "x": -28471.08,
+              "y": 113337.86,
+              "z": -704.0
+            },
+            {
+              "x": -55703.16,
+              "y": 165663.44,
+              "z": -1640.0
+            },
+            {
+              "x": -39675.55,
+              "y": 171925.05,
+              "z": -1564.0
+            }
+          ],
+          "valueType": "vectorArray",
+          "formula": null,
+          "type": "Engineering"
+        }
+      ],
+      "type": {
+        "id": "74b5be48-dfa5-44b1-9166-389898555b3a",
+        "name": "Line"
+      },
+      "children": [
+        {
+          "@class": "consulting.optimus.oc.model.Element",
+          "id": "71edcec6-dfb4-482d-92f3-161a1ffca086",
+          "name": "Bare pipe",
+          "properties": [
+            {
+              "id": "a02914e2-1e8d-41fe-bea8-a5d7c3504a50",
+              "name": "color",
+              "label": "Color",
+              "value": 16711680,
+              "valueType": "number",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "023cefed-d42d-4c56-aed2-5f570dfbeb30",
+              "name": "weight",
+              "label": "Weight (kg/m)",
+              "value": {
+                "value": 100.714,
+                "unit": "kg/m"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "e98e1573-9b78-4afe-a564-86b5b2b0b393",
+              "name": "positions",
+              "label": "Positions",
+              "value": [],
+              "valueType": "numberArray",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "b15dce07-df3e-4910-8f6c-103cac65000b",
+              "name": "density",
+              "label": "Density",
+              "value": {
+                "value": 7850,
+                "unit": "kg/m^3"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "e753279a-71e4-4e6e-85bf-b53aa717ffa3",
+              "name": "length",
+              "label": "Length",
+              "value": {
+                "value": 12.2,
+                "unit": "m"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "cc8b9237-2efb-4353-82d6-55564c846d7d",
+              "name": "attachedTo",
+              "label": "Attached to",
+              "value": "",
+              "valueType": "string",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "d6deff86-3072-40db-bc5e-5fb46371f304",
+              "name": "type",
+              "label": "Type",
+              "value": "Pipe",
+              "valueType": "string",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "687d4219-b090-44d7-b0e0-fc93542ce9da",
+              "name": "spacing",
+              "label": "Spacing",
+              "value": {
+                "value": 12.2,
+                "unit": "m"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "fc09e6c9-9e51-4617-95c4-174a05c80ae6",
+              "name": "od",
+              "label": "OD",
+              "value": {
+                "value": 18,
+                "unit": "in"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "93963938-98a1-40c9-86b0-c9f2b88b65c2",
+              "name": "material",
+              "label": "Materal",
+              "value": "Carbon Steel API 5L X65",
+              "valueType": "string",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "c15e010f-0d00-4f2e-b1e9-861544e9c9cc",
+              "name": "from",
+              "label": "From",
+              "value": {
+                "value": 6.1,
+                "unit": "m"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "49d1b445-2c2d-4cff-bb37-04873c51ce83",
+              "name": "to",
+              "label": "To",
+              "value": {
+                "value": -1,
+                "unit": "m"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "5467b0bf-0308-4305-a240-25d1b94b4d36",
+              "name": "id",
+              "label": "ID",
+              "value": {
+                "value": 241.29,
+                "unit": "mm"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "c332a893-f4e0-489a-aa17-881da8d490f3",
+              "name": "wallThickness",
+              "label": "Wall Thickness",
+              "value": {
+                "value": 15.88,
+                "unit": "mm"
+              },
+              "valueType": "measurement",
+              "formula": null,
+              "type": "Engineering"
+            },
+            {
+              "id": "b589ca5a-01db-4d24-b50b-e3e37381ca89",
+              "name": "componentParentId",
+              "label": "Component Parent ID",
+              "value": [
+                "2370b13d-505f-4928-a98d-81e3f567dbb4",
+                "8db68471-9891-4b95-9951-19ac85809e9e"
+              ],
+              "valueType": "stringArray",
+              "formula": null,
+              "type": "Engineering"
+            }
+          ],
+          "type": {
+            "id": "fb81dd10-3395-4d5a-ada8-771d3d1dc31d",
+            "name": "Line-Component"
+          },
+          "children": [
+            {
+              "@class": "consulting.optimus.oc.model.Element",
+              "id": "01201b49-273d-4f49-a64b-b1dddafb8f1a",
+              "name": "FJC",
+              "properties": [
+                {
+                  "id": "a5f16cd4-7fc3-4628-b0f2-927617e5b647",
+                  "name": "color",
+                  "label": "Color",
+                  "value": null,
+                  "valueType": "number",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "b8de9d4a-b664-43b9-ab49-66a349fde941",
+                  "name": "weight",
+                  "label": "Weight (kg/m)",
+                  "value": {
+                    "value": 1.033,
+                    "unit": "kg/m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "f4b1639e-b3dd-4e08-ab3c-f9ee19d6d8b9",
+                  "name": "positions",
+                  "label": "Positions",
+                  "value": [],
+                  "valueType": "numberArray",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "d186ac45-723f-4ce1-b624-eb4866a8dddd",
+                  "name": "density",
+                  "label": "Density",
+                  "value": {
+                    "value": 1200,
+                    "unit": "kg/m^3"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "9d3150ad-b318-4400-bf5e-aa7114e449a4",
+                  "name": "length",
+                  "label": "Length",
+                  "value": {
+                    "value": 0.4,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "713e69cc-387a-48ae-92ad-d08eb3c09a2d",
+                  "name": "attachedTo",
+                  "label": "Attached to",
+                  "value": "OD",
+                  "valueType": "string",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "c1ffd1ea-d4bd-45ae-9796-2d759a221a31",
+                  "name": "type",
+                  "label": "Type",
+                  "value": "AntiCorrosion Coating",
+                  "valueType": "string",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "6145e351-7dbd-462f-8df8-47fda34e1fe1",
+                  "name": "spacing",
+                  "label": "Spacing",
+                  "value": {
+                    "value": 12.2,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "66255fa9-7a51-4408-8dff-7d171bf12558",
+                  "name": "od",
+                  "label": "OD",
+                  "value": {
+                    "value": 275.05,
+                    "unit": "mm"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "89632373-177b-441d-949d-2c395423964b",
+                  "name": "material",
+                  "label": "Materal",
+                  "value": "HSS",
+                  "valueType": "string",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "0cf44d50-2df7-442a-ae4b-2a6fb2805899",
+                  "name": "from",
+                  "label": "From",
+                  "value": {
+                    "value": 0,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "32f203c5-42c3-44a9-b46e-e2804c3b5bee",
+                  "name": "id",
+                  "label": "ID",
+                  "value": {
+                    "value": 273.05,
+                    "unit": "mm"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "6f72aa60-d86c-4560-b65f-d68fb4ec388b",
+                  "name": "to",
+                  "label": "To",
+                  "value": {
+                    "value": -1,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "f6aca631-6d40-4fbd-9d88-a5e17df441c6",
+                  "name": "wallThickness",
+                  "label": "Wall Thickness",
+                  "value": {
+                    "value": 1,
+                    "unit": "mm"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                }
+              ],
+              "type": {
+                "id": "fb81dd10-3395-4d5a-ada8-771d3d1dc31d",
+                "name": "Line-Component"
+              },
+              "children": [],
+              "template": {
+                "@class": "consulting.optimus.oc.model.Element",
+                "id": "5340519e-40bb-4c8d-b992-e7e826bb2254",
+                "name": "FJC",
+                "properties": [],
+                "type": null,
+                "children": [],
+                "template": null,
+                "path": "/OSC-P002/OC lines/CS line/Bare pipe/FJC",
+                "asset": null,
+                "connections": [],
+                "connectionPoints": [],
+                "adjustable": true,
+                "status": null,
+                "creationInfo": null,
+                "scopeOfWorkRelationships": []
+              },
+              "path": "/OSC-P002-C001/Base Line/Bare pipe/FJC",
+              "asset": {
+                "id": "9036ab86-a4dc-4f68-b528-78e3ed82e796",
+                "name": "line-component",
+                "contentId": null,
+                "path": "/OSC/line-component"
+              },
+              "connections": [],
+              "connectionPoints": [],
+              "adjustable": true,
+              "status": "Planned",
+              "creationInfo": null,
+              "scopeOfWorkRelationships": []
+            },
+            {
+              "@class": "consulting.optimus.oc.model.Element",
+              "id": "5c494956-925e-4ef8-86cc-ebe6d5a1f2e8",
+              "name": "FBE",
+              "properties": [
+                {
+                  "id": "a49d007d-cf22-402d-8053-cd63d8dcab01",
+                  "name": "color",
+                  "label": "Color",
+                  "value": null,
+                  "valueType": "number",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "2e1daa03-c9df-4f2e-bc94-9fd1e22ffaf6",
+                  "name": "weight",
+                  "label": "Weight (kg/m)",
+                  "value": {
+                    "value": 0.344,
+                    "unit": "kg/m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "c8a5045e-8b6d-463a-9dc1-a31ac7dd919a",
+                  "name": "positions",
+                  "label": "Positions",
+                  "value": [],
+                  "valueType": "numberArray",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "8a9e9889-fcee-4205-b01c-d038b9314ea4",
+                  "name": "density",
+                  "label": "Density",
+                  "value": {
+                    "value": 800,
+                    "unit": "kg/m^3"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "4ed45c98-37ab-4bb6-9c4d-900a56d888ac",
+                  "name": "length",
+                  "label": "Length",
+                  "value": {
+                    "value": 12.2,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "85022728-ad03-42cf-9b5f-515647566b02",
+                  "name": "attachedTo",
+                  "label": "Attached to",
+                  "value": "OD",
+                  "valueType": "string",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "75c55656-90c3-4143-83c2-dd90a460e2e8",
+                  "name": "type",
+                  "label": "Type",
+                  "value": "AntiCorrosion Coating",
+                  "valueType": "string",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "f32634c4-220c-4cfe-bc72-c883599163f3",
+                  "name": "spacing",
+                  "label": "Spacing",
+                  "value": {
+                    "value": 12.2,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "924e5414-6bec-440c-b7cc-006e32cbebd3",
+                  "name": "od",
+                  "label": "OD",
+                  "value": {
+                    "value": 274.05,
+                    "unit": "mm"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "fb800120-8cbd-4d2b-9bfb-3281e239df3f",
+                  "name": "material",
+                  "label": "Materal",
+                  "value": "FBE",
+                  "valueType": "string",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "f6df2b10-bd5e-456a-899b-bc04b34512eb",
+                  "name": "from",
+                  "label": "From",
+                  "value": {
+                    "value": 6.1,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "a8cf34dc-6e0a-4b0f-a8c0-6dab5c4827fd",
+                  "name": "to",
+                  "label": "To",
+                  "value": {
+                    "value": -1,
+                    "unit": "m"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "5d7f8b77-b6de-427d-a30c-9851b430afd7",
+                  "name": "id",
+                  "label": "ID",
+                  "value": {
+                    "value": 273.05,
+                    "unit": "mm"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                },
+                {
+                  "id": "dca038e7-8b81-4ccb-901c-dc3123ae536d",
+                  "name": "wallThickness",
+                  "label": "Wall Thickness",
+                  "value": {
+                    "value": 0.5,
+                    "unit": "mm"
+                  },
+                  "valueType": "measurement",
+                  "formula": null,
+                  "type": "Engineering"
+                }
+              ],
+              "type": {
+                "id": "fb81dd10-3395-4d5a-ada8-771d3d1dc31d",
+                "name": "Line-Component"
+              },
+              "children": [
+                {
+                  "@class": "consulting.optimus.oc.model.Element",
+                  "id": "2e0343c0-d918-4bb1-a7d8-828b31cd1d31",
+                  "name": "Half-selves anodes",
+                  "properties": [
+                    {
+                      "id": "78188f44-53eb-4eef-9407-e1ace16844c4",
+                      "name": "color",
+                      "label": "Color",
+                      "value": null,
+                      "valueType": "number",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "cb353f28-79e4-4e00-927a-24901875a02a",
+                      "name": "weight",
+                      "label": "Weight (kg/m)",
+                      "value": {
+                        "value": 276.253,
+                        "unit": "kg/m"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "2c83a987-0958-4b23-9d8b-be321064f3a1",
+                      "name": "positions",
+                      "label": "Positions",
+                      "value": [],
+                      "valueType": "numberArray",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "973af8e5-2fc3-41cd-a475-5ec25cf733d4",
+                      "name": "density",
+                      "label": "Density",
+                      "value": {
+                        "value": 7000,
+                        "unit": "kg/m^3"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "295b1123-6152-4606-8c55-9629d8d8702c",
+                      "name": "length",
+                      "label": "Length",
+                      "value": {
+                        "value": 0.15,
+                        "unit": "m"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "7fde27b9-0156-46f6-9320-2f1dceea01af",
+                      "name": "attachedTo",
+                      "label": "Attached to",
+                      "value": "OD",
+                      "valueType": "string",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "d697931e-dfee-4129-a4a6-561115ca0bbc",
+                      "name": "type",
+                      "label": "Type",
+                      "value": "Anode",
+                      "valueType": "string",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "31817269-4cff-45a0-be3c-2ab372cf2a4d",
+                      "name": "spacing",
+                      "label": "Spacing",
+                      "value": {
+                        "value": 268.4,
+                        "unit": "m"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "0b3de10b-7d87-4c34-a5ce-26aa29a5bc41",
+                      "name": "od",
+                      "label": "OD",
+                      "value": {
+                        "value": 354.05,
+                        "unit": "mm"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "2bb9f034-290c-4a4d-910a-7a0056a0e1c2",
+                      "name": "material",
+                      "label": "Materal",
+                      "value": "Al - Zn - In Alloy",
+                      "valueType": "string",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "33878c5f-a5f0-43f5-b0c0-c2393c0b0489",
+                      "name": "from",
+                      "label": "From",
+                      "value": {
+                        "value": 0,
+                        "unit": "m"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "312bf867-601d-4bb0-9ec6-d3656b971caf",
+                      "name": "id",
+                      "label": "ID",
+                      "value": {
+                        "value": 274.05,
+                        "unit": "mm"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "3a264bca-9376-4bea-8686-a374aa92f4c5",
+                      "name": "to",
+                      "label": "To",
+                      "value": {
+                        "value": -1,
+                        "unit": "m"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    },
+                    {
+                      "id": "b1b6c404-3739-47df-8267-e55033623649",
+                      "name": "wallThickness",
+                      "label": "Wall Thickness",
+                      "value": {
+                        "value": 40,
+                        "unit": "mm"
+                      },
+                      "valueType": "measurement",
+                      "formula": null,
+                      "type": "Engineering"
+                    }
+                  ],
+                  "type": {
+                    "id": "fb81dd10-3395-4d5a-ada8-771d3d1dc31d",
+                    "name": "Line-Component"
+                  },
+                  "children": [],
+                  "template": {
+                    "@class": "consulting.optimus.oc.model.Element",
+                    "id": "52377c57-da09-409b-92c6-47f351bdb38d",
+                    "name": "Half-selves anodes",
+                    "properties": [],
+                    "type": null,
+                    "children": [],
+                    "template": null,
+                    "path": "/OSC-P002/OC lines/CS line/Bare pipe/FBE/Half-selves anodes",
+                    "asset": null,
+                    "connections": [],
+                    "connectionPoints": [],
+                    "adjustable": true,
+                    "status": null,
+                    "creationInfo": null,
+                    "scopeOfWorkRelationships": []
+                  },
+                  "path": "/OSC-P002-C001/Base Line/Bare pipe/FBE/Half-selves anodes",
+                  "asset": {
+                    "id": "9036ab86-a4dc-4f68-b528-78e3ed82e796",
+                    "name": "line-component",
+                    "contentId": null,
+                    "path": "/OSC/line-component"
+                  },
+                  "connections": [],
+                  "connectionPoints": [],
+                  "adjustable": true,
+                  "status": "Planned",
+                  "creationInfo": null,
+                  "scopeOfWorkRelationships": []
+                }
+              ],
+              "template": {
+                "@class": "consulting.optimus.oc.model.Element",
+                "id": "acfd08de-b996-42fd-a638-2fbad209eb38",
+                "name": "FBE",
+                "properties": [],
+                "type": null,
+                "children": [],
+                "template": null,
+                "path": "/OSC-P002/OC lines/CS line/Bare pipe/FBE",
+                "asset": null,
+                "connections": [],
+                "connectionPoints": [],
+                "adjustable": true,
+                "status": null,
+                "creationInfo": null,
+                "scopeOfWorkRelationships": []
+              },
+              "path": "/OSC-P002-C001/Base Line/Bare pipe/FBE",
+              "asset": {
+                "id": "9036ab86-a4dc-4f68-b528-78e3ed82e796",
+                "name": "line-component",
+                "contentId": null,
+                "path": "/OSC/line-component"
+              },
+              "connections": [],
+              "connectionPoints": [],
+              "adjustable": true,
+              "status": "Planned",
+              "creationInfo": null,
+              "scopeOfWorkRelationships": []
+            }
+          ],
+          "template": {
+            "@class": "consulting.optimus.oc.model.Element",
+            "id": "1ed8a3bc-bdf1-494f-b870-e95a17037262",
+            "name": "Bare pipe",
+            "properties": [],
+            "type": null,
+            "children": [],
+            "template": null,
+            "path": "/OSC-P002/OC lines/CS line/Bare pipe",
+            "asset": null,
+            "connections": [],
+            "connectionPoints": [],
+            "adjustable": true,
+            "status": null,
+            "creationInfo": null,
+            "scopeOfWorkRelationships": []
+          },
+          "path": "/OSC-P002-C001/Base Line/Bare pipe",
+          "asset": {
+            "id": "9036ab86-a4dc-4f68-b528-78e3ed82e796",
+            "name": "line-component",
+            "contentId": null,
+            "path": "/OSC/line-component"
+          },
+          "connections": [],
+          "connectionPoints": [],
+          "adjustable": true,
+          "status": "Planned",
+          "creationInfo": null,
+          "scopeOfWorkRelationships": []
+        }
+      ],
+      "template": {
+        "@class": "consulting.optimus.oc.model.Element",
+        "id": "57e0c092-e72a-474d-bb70-535393e4fa11",
+        "name": "CS line",
+        "properties": [],
+        "type": null,
+        "children": [],
+        "template": null,
+        "path": "/OSC-P002/OC lines/CS line",
+        "asset": null,
+        "connections": [],
+        "connectionPoints": [],
+        "adjustable": true,
+        "status": null,
+        "creationInfo": null,
+        "scopeOfWorkRelationships": []
+      },
+      "path": "/OSC-P002-C001/Base Line",
+      "asset": {
+        "id": "2dc602a6-d80f-4e26-8172-57257cdc9841",
+        "name": "polyline",
+        "contentId": null,
+        "path": "/OSC/polyline"
+      },
+      "connections": [
+        {
+          "id": "4cfd2386-c3a1-4ac7-b105-699354988378",
+          "connectionPoint": {
+            "id": "10ac0e29-b7c7-48ff-9838-4d40ed815710",
+            "type": "Connector",
+            "position": {
+              "x": -2.378,
+              "y": 0.0,
+              "z": 0.285
+            },
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 180.0
+            },
+            "systems": [
+              "Oil",
+              "Gas",
+              "Water",
+              "MEG"
+            ],
+            "endpoint": false,
+            "purposes": [
+              "Production",
+              "Processing",
+              "Lift",
+              "Injection",
+              "Storage"
+            ],
+            "metaData": {}
+          },
+          "elementId": "ed272bba-8a8f-4df7-ae89-aac4adefc456",
+          "data": {
+            "pointIndex": 0
+          }
+        },
+        {
+          "id": "2f3c9435-27e0-4389-b159-4434a43d40dc",
+          "connectionPoint": {
+            "id": "fcca674c-45fe-4a5e-bb55-cb064c403ba8",
+            "type": "Connector",
+            "position": {
+              "x": -2.378,
+              "y": 0.0,
+              "z": 0.285
+            },
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 180.0
+            },
+            "systems": [
+              "Oil",
+              "Gas",
+              "Water",
+              "MEG"
+            ],
+            "endpoint": false,
+            "purposes": [
+              "Production",
+              "Processing",
+              "Lift",
+              "Injection",
+              "Storage"
+            ],
+            "metaData": {}
+          },
+          "elementId": "f3aca30a-40f9-4536-b2f3-3acd386df678",
+          "data": {
+            "pointIndex": 21
+          }
+        }
+      ],
+      "connectionPoints": [],
+      "adjustable": true,
+      "status": "Planned",
+      "creationInfo": {
+        "id": "46ef69dd-9cf2-472f-97c0-0a20c4f8e444",
+        "rule": "rigid-pipe-rule",
+        "parameters": {
+          "min-bend-radius": 200,
+          "min-straight-length": 300
+        },
+        "metaData": {}
+      },
+      "scopeOfWorkRelationships": []
+    }

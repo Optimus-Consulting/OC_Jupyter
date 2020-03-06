@@ -1,0 +1,230 @@
+[
+  {
+    "name": "CAPEX PDGS Test ",
+    "purpose": null,
+    "path": "/capex",
+    "properties": [],
+    "description": null,
+    "min": {
+      "value": 2396332307.215,
+      "unit": "$"
+    },
+    "max": {
+      "value": 2907661600.4483,
+      "unit": "$"
+    },
+    "amount": null,
+    "children": [
+      {
+        "name": "1. PDGS case",
+        "purpose": null,
+        "path": "/capex/1. PDGS case",
+        "properties": [],
+        "description": null,
+        "min": {
+          "value": 1948447094.215,
+          "unit": "$"
+        },
+        "max": {
+          "value": 2446674060.9483,
+          "unit": "$"
+        },
+        "amount": null,
+        "children": [
+          {
+            "name": "CS jumper",
+            "purpose": null,
+            "path": "/capex/1. PDGS case/CS jumper",
+            "properties": [],
+            "description": null,
+            "min": {
+              "value": 406326.8603,
+              "unit": "$"
+            },
+            "max": {
+              "value": 406326.8603,
+              "unit": "$"
+            },
+            "amount": null,
+            "children": [
+              {
+                "name": "CS jumper (SP 1)",
+                "purpose": null,
+                "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)",
+                "properties": [
+                  "Length: 44.93 m",
+                  "Weight: 5,456.98 kg",
+                  "Count: 1"
+                ],
+                "description": "8 in nom OD, 15.88 mm WT",
+                "min": {
+                  "value": 16370.9286,
+                  "unit": "$"
+                },
+                "max": {
+                  "value": 16370.9286,
+                  "unit": "$"
+                },
+                "amount": null,
+                "children": [
+                  {
+                    "name": "Generic",
+                    "purpose": null,
+                    "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Generic",
+                    "properties": [],
+                    "description": null,
+                    "min": null,
+                    "max": null,
+                    "amount": {
+                      "value": 16370.9286,
+                      "unit": "$"
+                    },
+                    "children": [
+                      {
+                        "name": null,
+                        "purpose": "Procurement",
+                        "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Generic/null",
+                        "properties": [],
+                        "description": null,
+                        "min": null,
+                        "max": null,
+                        "amount": {
+                          "value": 16370.9286,
+                          "unit": "$"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Components",
+                    "purpose": null,
+                    "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Components",
+                    "properties": [],
+                    "description": null,
+                    "min": {
+                      "value": 0,
+                      "unit": "$"
+                    },
+                    "max": {
+                      "value": 0,
+                      "unit": "$"
+                    },
+                    "amount": null,
+                    "children": [
+                      {
+                        "name": "Bare pipe",
+                        "purpose": null,
+                        "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Components/Bare pipe",
+                        "properties": [
+                          "Length: 44.93 m",
+                          "Weight: 3,580.04 kg",
+                          "Count: 45"
+                        ],
+                        "description": "10in Nom OD, 15.88mm WT",
+                        "min": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "max": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "amount": null,
+                        "children": []
+                      },
+                      {
+                        "name": "FJC",
+                        "purpose": null,
+                        "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Components/FJC",
+                        "properties": [
+                          "Length: 0.6 m",
+                          "Weight: 1.13 kg",
+                          "Count: 3"
+                        ],
+                        "description": "10in Nom OD, 3mm WT",
+                        "min": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "max": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "amount": null,
+                        "children": []
+                      },
+                      {
+                        "name": "3LPE",
+                        "purpose": null,
+                        "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Components/3LPE",
+                        "properties": [
+                          "Length: 44.93 m",
+                          "Weight: 122.27 kg",
+                          "Count: 45"
+                        ],
+                        "description": "10in Nom OD, 3mm WT",
+                        "min": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "max": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "amount": null,
+                        "children": []
+                      },
+                      {
+                        "name": "Half-selves anodes",
+                        "purpose": null,
+                        "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Components/Half-selves anodes",
+                        "properties": [
+                          "Length: 0.7 m",
+                          "Weight: 1,308.78 kg",
+                          "Count: 1"
+                        ],
+                        "description": "10in Nom OD, 200mm WT",
+                        "min": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "max": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "amount": null,
+                        "children": []
+                      },
+                      {
+                        "name": "Bend",
+                        "purpose": null,
+                        "path": "/capex/1. PDGS case/CS jumper/CS jumper (SP 1)/Components/Bend",
+                        "properties": [
+                          "Length: 4.42 m",
+                          "Weight: 444.75 kg",
+                          "Count: 3"
+                        ],
+                        "description": "10in Nom OD, 15.88mm WT",
+                        "min": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "max": {
+                          "value": 0,
+                          "unit": "$"
+                        },
+                        "amount": null,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
